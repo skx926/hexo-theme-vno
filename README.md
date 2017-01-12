@@ -9,6 +9,14 @@ hexo-vno
 
 [Demo: 我的博客](http://skx926.com)
 
+![主页封面](source/images/show/home.png)
+
+![文章列表](source/images/show/list.png)
+
+![文章内容](source/images/show/page.png)
+
+![文章归档](source/images/show/archive.png)
+
 ## Copyright & License
 
 Copyright (c) 2017  Released under the [MIT license](LICENSE).

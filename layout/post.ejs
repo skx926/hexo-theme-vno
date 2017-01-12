@@ -1,0 +1,18 @@
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <%- partial('_partial/date',{post: page}) %> &#8226; <span class="post-meta__tags tags">分类&nbsp;<%- partial('_partial/tags',{post: page}) %></span>
+    </div>
+    <h1 class="post-title"><%= page.title%></h1>
+  </header>
+
+  <section class="post">
+    <%- page.content%>
+  </section>
+
+</article>
+
+<%- partial('_partial/read-more', {}) %>
+
+<%- partial('_partial/comments',{}) %>

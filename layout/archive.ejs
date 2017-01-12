@@ -1,0 +1,41 @@
+<div class="archives">
+<% var last; %>
+
+<% page.posts.each(function(post, i){ %>
+  <% var year = post.date.year(); %>
+  <% if (last != year){ %>
+    <% if (last != null){ %>
+      </div></section>
+    <% } %>
+    <% last = year; %>
+    <section class="archive-list__wrap">
+      <div class="archive-list__year-wrap">
+        <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-list__year"><%= year %></a>
+      </div>
+      <div class="archive-list">
+  <% } %>
+  <% var link = post.link || post.path; %>
+  <div class="archive-list__item">
+    <div class="archive-list__date-wrap">
+      <%- partial('_partial/archive_date',{post: post}) %>
+    </div>
+  <div class="archive-list__title-wrap">
+  <a href="<%- config.root %><%- link%>" title="link to post.title" class="archive-list__title"><%= post.title%></a>
+  </div>
+  </div>
+<% }) %>
+<% if (page.posts.length){ %>
+</div>
+</section>
+<% } %>
+<% if (page.total > 1){ %>
+  <nav class="pagination" role="navigation">
+    <% if (page.prev){ %>
+      <a class="older-posts pagination__older btn btn-small btn-tertiary" href="<%- url_for(page.prev_link) %>">Prev</a>
+    <% } %>
+    <% if (page.next){ %>
+      <a class="older-posts pagination__older btn btn-small btn-tertiary" href="<%- url_for(page.next_link) %>">Next</a>
+    <% } %>
+  </nav>
+<% } %>
+</div>

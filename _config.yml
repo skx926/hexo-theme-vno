@@ -1,0 +1,26 @@
+menu:
+  归档: /archives
+rss: /atom.xml
+description:
+social:
+  weibo: http://weibo.com/ikeson
+  github: https://github.com/skx926
+  stack_overflow:
+  facebook:
+  twitter: https://twitter.com/skx926
+  google_plus: https://plus.google.com/118328736821069549236
+  instagram: https://www.instagram.com/skx926
+
+page_comment: true
+logo: /images/logo.jpg
+background:
+  cover: /images/background-cover.jpg
+  color: cover-blue
+
+fancybox: true
+
+duoshuo_shortname: skx926
+
+google_analytics: UA-73055515-1
+
+favicon: /images/favicon.png

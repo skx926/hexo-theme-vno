@@ -45,6 +45,10 @@
     <link rel="icon" href="<%- theme.favicon %>">
     <% } %>
 
+    <% if (theme.apple_touch_icon){ %>
+    <link rel="apple-touch-icon" href="<%- theme.apple_touch_icon %>">
+    <% } %>
+    
     <meta name="generator" content="hexo"/>
     <% if (theme.rss) { %>
     <link rel="alternate" type="application/rss+xml" title="<%= config.title %>" href="<%= theme.rss %>">

@@ -15,7 +15,7 @@ page_comment: true
 logo: /images/logo.png
 background:
   cover: /images/background-cover.jpg
-  color: cover-disabled
+  color: cover-light-blue
 
 fancybox: true
 

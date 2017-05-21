@@ -5,8 +5,8 @@ hexo-theme-vno
 
 - 增加了内容页显示上一篇和下面文章
 - 增加归档页
-- 修改多说为网易云跟帖
-- 增加apple-touch-icon
+- 修改多说为网易云跟帖
+- 增加apple-touch-icons
 
 ## Demo Show
 

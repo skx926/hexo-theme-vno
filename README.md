@@ -1,4 +1,4 @@
-hexo-vno
+hexo-theme-vno
 ========
 
 这个主题是修改自lenbo-ma的 [hexo-theme-vno](https://github.com/lenbo-ma/hexo-theme-vno)

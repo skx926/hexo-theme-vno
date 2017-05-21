@@ -9,6 +9,8 @@ hexo-vno
 
 [Demo: 我的博客](http://skx926.com)
 
+### 桌面版
+
 ![主页封面](source/images/show/home.png)
 
 ![文章列表](source/images/show/list.png)
@@ -16,6 +18,16 @@ hexo-vno
 ![文章内容](source/images/show/page.png)
 
 ![文章归档](source/images/show/archive.png)
+
+### 移动版
+
+![移动设备主页封面](source/images/show/home-mobile.png)
+
+![移动设备文章列表](source/images/show/list-mobile.png)
+
+![移动设备文章内容](source/images/show/page-mobile.png)
+
+![移动设备文章归档](source/images/show/archive-mobile.png)
 
 ## Copyright & License
 

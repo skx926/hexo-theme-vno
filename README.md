@@ -1,9 +1,12 @@
 hexo-theme-vno
 ========
 
-这个主题是修改自lenbo-ma的 [hexo-theme-vno](https://github.com/lenbo-ma/hexo-theme-vno)
+这个主题是修改自lenbo-ma的 [hexo-theme-vno](https://github.com/lenbo-ma/hexo-theme-vno)，修复了`桌面版切换页面侧边栏布局闪烁`和`移动版侧边栏展开后会自动收缩`等问题并增加下面的新功能：
 
-增加了`内容页显示上一篇和下面文章`、`归档页`等功能并修复了`桌面版切换页面侧边栏布局闪烁`和`移动版侧边栏展开后会自动收缩`等问题。
+- 增加了内容页显示上一篇和下面文章
+- 增加归档页
+- 修改多说为网易云跟帖
+- 增加apple-touch-icon
 
 ## Demo Show
 

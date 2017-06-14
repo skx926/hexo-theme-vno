@@ -12,7 +12,9 @@
         <hr class="panel-cover__divider" />
         <p class="panel-cover__description"><%- config.description %></p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
-
+        <% if (config.description2) { %>
+        <p class="panel-cover__description"><%- config.description2 %></p>
+        <% } %>
         <div class="navigation-wrapper">
           <div>
           <nav class="cover-navigation cover-navigation--primary">

@@ -1,5 +1,6 @@
 menu:
   归档: /archives
+  摄影: /photos
 rss: /atom.xml
 description:
 social:
@@ -15,7 +16,7 @@ page_comment: true
 logo: /images/logo.png
 background:
   cover: /images/background-cover.jpg
-  color: cover-light-blue
+  color: cover-disabled
 
 fancybox: true
 

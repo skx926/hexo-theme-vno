@@ -35,12 +35,19 @@ q:before, q:after {
   content: '';
   content: none; }
 
-  table {
+figure table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     table-layout: fixed;
+    text-align: left;
+    border-width: 0px;
+    margin: auto;
   }
+
+figure th, figure td {
+  padding: 0px;
+}
 
 body {
   width: 100%;
@@ -175,27 +182,28 @@ pre {
     border: none;
     word-wrap: normal; }
 
-/*table {
+table {
   color: #333333;
   font-size: .9em;
   text-align: center;
   line-height: 40px;
   border-spacing: 0;
-  border: 2px solid #92121e;
-  width: 100%;
+  border: 2px solid #4e97d8;
+  width: 90%;
   margin: 50px auto;
-}*/
+}
 
 thead tr:first-child {
-  background-color: #92121e;
+  background-color: #4e97d8;
   color: #F8F8F8;
   border: none; }
 
 th {
   font-weight: bold; }
 
-/*th:first-child, td:first-child {
-  padding: 0 15px 0 20px; }*/
+th, td {
+  padding: 0 8px 0 8px;
+}
 
 thead tr:last-child th {
   border-bottom: 1px solid #DDDDDD; }
@@ -206,9 +214,6 @@ tbody tr:last-child td {
 tbody td {
   border-bottom: 1px solid #DDDDDD;
   font-size: .9em;}
-
-td:last-child {
-  padding-right: 10px; }
 
 .date,
 .time,

@@ -59,4 +59,11 @@
     <% if (theme.social["google_plus"]) { %>
     <link rel="author" href="<%= theme.social['google_plus'] %>"/>
     <% } %>
+    <!-- fancybox support -->
+    <% if(theme.fancybox === true) { %>
+        <%- js('lib/jquery-3.3.1.min') %>
+        <%- css('lib/fancybox/dist/jquery.fancybox.min') %>
+        <%- js('lib/fancybox/dist/jquery.fancybox.min') %>
+        <%- js('js/wrapImage') %>
+    <% }%>
 </head>

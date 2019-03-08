@@ -5,8 +5,31 @@ hexo-theme-vno
 
 - 增加了内容页显示上一篇和下面文章
 - 增加归档页
-- 修改多说为网易云跟帖
+- 去除多说使用disqus
 - 增加apple-touch-icons
+- 增加数学公式显示
+- 增加fancybox预览图片
+
+
+
+# 数学公式的显示
+
+1. pc端下载安装[pandoc](http://pandoc.org/installing.html)
+
+2. 进入博客目录执行下面的命令
+
+   ```bash
+   // 删除自带渲染引擎
+   $ npm uninstall hexo-renderer-marked --save
+   // 安装 pandoc 渲染引擎
+   $ npm install hexo-renderer-pandoc --save
+   // 删除 hexo-math
+   $ npm uninstall hexo-math --save
+   // 安装 mathjax
+   $ npm install hexo-renderer-mathjax --save
+   ```
+
+3. All done！使用`hexo s`运行起来看看效果吧😄
 
 ## Demo Show
 

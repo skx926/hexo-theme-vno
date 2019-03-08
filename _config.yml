@@ -12,7 +12,7 @@ social:
   instagram: https://www.instagram.com/skx926
 
 page_comment: true
-logo: /images/logo.png
+logo: /images/logo.jpg
 background:
   cover: /images/background-cover.jpg
   color: cover-disabled
@@ -23,6 +23,6 @@ cloudtie_productkey: 7e456de65fb945698c448c72191454ce
 
 google_analytics: UA-73055515-1
 
-favicon: /images/favicon.png
+favicon: /images/favicon.jpg
 
 apple_touch_icon: /images/apple-touch-icon.png

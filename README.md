@@ -33,7 +33,7 @@ hexo-theme-vno
 
 ## Demo Show
 
-[Demo: 我的博客](http://skx926.com)
+[Demo: 我的博客](http://skx926.me)
 
 ### 桌面版
 
